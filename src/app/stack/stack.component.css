@@ -1,0 +1,9 @@
+.skill {
+  position: absolute;
+  display: block;
+}
+
+.container {
+  transform-style: preserve-3d;
+  transform: rotate3d(-0.2, 1, 0, 15deg);
+}

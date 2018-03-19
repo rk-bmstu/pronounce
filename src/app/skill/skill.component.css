@@ -1,0 +1,25 @@
+.side {
+  border: 1px solid orange;
+  opacity: 1;
+}
+
+.front {
+  transform: translateZ(5em);
+  background: gray;
+}
+
+.left {
+  transform: translateX(-50%) rotateY(90deg);
+  background: lightgreen;
+  height: 10em;
+  width: 10em;
+  position: absolute;
+}
+
+.top {
+  transform: translateY(-50%) rotateX(90deg);
+  background: skyblue;
+  height: 10em;
+  width: 100%;
+  position: absolute;
+}
